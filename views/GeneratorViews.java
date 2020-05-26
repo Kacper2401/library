@@ -388,7 +388,7 @@ public class GeneratorViews extends BookManagement {
         return new Scene(view, 400, 400, Color.rgb(100, 5, 95));
     }
 
-    private Scene getGetReturnBookView() {
+    private Scene getReturnBookView() {
         Group view = new Group();
         Button buttonReturnBook = new Button("Return book");
         Button buttonReturn = new Button("Return");
